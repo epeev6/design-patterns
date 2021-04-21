@@ -8,5 +8,7 @@ public interface Observable {
 	void notifyObservers();
 	
 	String getUpdate(Observer obs);
+	
+	// Observable Notifies the observer - bi-directional Observer design pattern??
 	void notifyRadar(Observer obs, int location);
 }
