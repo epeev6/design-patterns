@@ -38,7 +38,7 @@ public class Chat implements MessageMediator {
 		}
 		
 		if(this.users.contains(user) == false) {
-			System.out.println("User not found.");
+			System.out.println("User " + user.name + " not found.");
 			return;
 		}
 		
