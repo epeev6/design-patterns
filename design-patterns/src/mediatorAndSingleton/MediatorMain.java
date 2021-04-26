@@ -18,7 +18,7 @@ public class MediatorMain {
 		user1.send("AAAAAAA");
 		user1.send("cat"); // banned word
 		user1.send("BBBBBBBBBBB"); // banned user tries to send another message.
-		
+		//commit test
 		
 	}
 
