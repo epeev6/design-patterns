@@ -9,3 +9,5 @@ public interface MessageMediator {
 	void sendMessage(String message, User user);
 	
 }
+
+//commit test

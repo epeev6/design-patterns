@@ -1,7 +1,7 @@
 package mediatorAndSingleton;
 
 public class MediatorMain {
-
+	
 	public static void main(String[] args) {
 		
 		
@@ -22,3 +22,6 @@ public class MediatorMain {
 	}
 
 }
+
+
+//commit test
