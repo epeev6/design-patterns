@@ -14,7 +14,6 @@ public class MediatorMain {
 		user2.send("Hi guys!");
 		user3.send("Hello!");
 		user3.send("addBot");
-		user2.send("kitten");
 		user1.send("AAAAAAA");
 		user1.send("cat"); // banned word
 		user1.send("BBBBBBBBBBB"); // banned user tries to send another message.
