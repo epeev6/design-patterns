@@ -36,7 +36,7 @@ public class Chat implements MessageMediator {
 			chatBot = ChatBot.getInstance();
 			for(User chatUser: this.users) {
 				if(user != chatUser) {
-					chatUser.receive(message);
+					chatUser.receive(user.name + " added a bot.");
 				}
 			}
 		}
