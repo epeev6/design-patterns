@@ -33,8 +33,12 @@ public class Chat implements MessageMediator {
 	public void sendMessage(String message, User user) {
 		
 		if(message.equals("addBot")) {
-			System.out.println(user.name + " added a bot.");
 			chatBot = ChatBot.getInstance();
+			for(User chatUser: this.users) {
+				if(chatUser != user && this.users.contains(user) == true) {
+					chatUser.receive(user.name + " added a bot");
+				}
+			}
 		}
 		
 		if(this.users.contains(user) == false) {
